@@ -85,7 +85,7 @@
                                             <img src="{{ asset('assets/landing_page_images/instagram.svg') }}" alt="">
                                         </span>
                                         <span>
-                                            {{ __('instagram') }}
+                                            dcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
                                         </span>
                                     </a>
                                 </span>    
