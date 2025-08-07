@@ -178,6 +178,8 @@ Route::group(['middleware' => ['Role', 'checkSchoolStatus', 'status','SwitchData
             // Route::get('/admin/search', [SchoolController::class, 'adminSearch']);
             Route::post('/admin/update', [SchoolController::class, 'updateAdmin']);
             Route::PUT('/change/status/{id}', [SchoolController::class, 'changeStatus']);
+
+            
             Route::get('/admin/search', [SchoolController::class, 'searchAdmin']);
 
             Route::get('/send-mail', [SchoolController::class, 'sendMailIndex'])->name('schools.send.mail');
